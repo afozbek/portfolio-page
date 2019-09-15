@@ -2,14 +2,14 @@
   padding-bottom: 2rem;
 
   &__bio-image {
-    height: 50vh;
+    height: 30vh;
     width: 100%;
     background: linear-gradient(
         to right,
         rgba($secondary-color, 0.3),
         rgba($secondary-color, 0.1)
       ),
-      url(../img/furkan-smiling.png) no-repeat center top;
+      url(../img/furkan-thinking.jpg) no-repeat center top;
     background-size: cover;
 
     display: flex;
