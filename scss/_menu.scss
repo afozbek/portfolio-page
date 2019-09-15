@@ -31,10 +31,15 @@
       content: "";
       position: absolute;
       top: 8px;
-      width: 28px;
+      width: 23px;
       height: 3px;
       background-color: set-text-color($primary-color);
       @include transition-ease;
+    }
+
+    &.open {
+      transform: rotate(720deg);
+      background: transparent;
     }
   }
 }

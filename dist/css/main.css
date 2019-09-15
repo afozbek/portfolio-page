@@ -55,10 +55,14 @@
   content: "";
   position: absolute;
   top: 8px;
-  width: 28px;
+  width: 23px;
   height: 3px;
   background-color: #fff;
   transition: all 0.5s ease-in-out;
+}
+.menu-btn__burger.open {
+  transform: rotate(720deg);
+  background: transparent;
 }
 
 body {
