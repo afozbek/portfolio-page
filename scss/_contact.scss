@@ -1,6 +1,6 @@
 .contact {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 30vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
   background-size: cover;
 
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
 
@@ -29,5 +29,6 @@
   .social-icons {
     position: initial;
     margin-top: 2rem;
+    font-size: 12px;
   }
 }
