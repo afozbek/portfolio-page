@@ -26,6 +26,10 @@
 
   .about__bio {
     font-size: 1.5rem;
+
+    &__image {
+      height: 40vh;
+    }
   }
 
   .projects {
@@ -59,6 +63,10 @@
 @include media-lg {
   .about__bio {
     font-size: 2rem;
+
+    &-image {
+      height: 55vh;
+    }
   }
 
   .projects {
@@ -86,6 +94,14 @@
 }
 
 @include media-xl {
+  .about__bio {
+    font-size: 2rem;
+
+    &-image {
+      height: 70vh;
+    }
+  }
+
   .project__bio-image {
     height: 50vh;
   }
