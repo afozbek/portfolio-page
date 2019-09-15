@@ -13,6 +13,9 @@
   background: linear-gradient(to right, rgba(255, 101, 47, 0.3), rgba(255, 101, 47, 0.1)), url(../img/furkan-thinking.jpg) no-repeat center top;
   background-size: cover;
 }
+.home h2 {
+  font-size: 1.3rem;
+}
 .home__name {
   font-size: 5rem;
   padding-bottom: 1rem;
@@ -21,6 +24,10 @@
 }
 .home__name--last {
   color: #ff652f;
+}
+
+.social-icons {
+  font-size: 14px;
 }
 
 .menu-btn {

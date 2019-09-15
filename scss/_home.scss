@@ -12,6 +12,10 @@
     url(../img/furkan-thinking.jpg) no-repeat center top;
   background-size: cover;
 
+  h2 {
+    font-size: 1.3rem;
+  }
+
   &__name {
     font-size: 5rem;
     padding-bottom: 1rem;
@@ -22,4 +26,8 @@
       color: $secondary-color;
     }
   }
+}
+
+.social-icons {
+  font-size: 14px;
 }
